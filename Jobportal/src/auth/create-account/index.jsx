@@ -140,7 +140,11 @@ const SignUpPage = () => {
   </div>
 </div>
       </div>
-      <div className="hidden lg:block lg:w-1/2 bg-hero-pattern bg-cover bg-center"></div>
+      <div className="hidden lg:block lg:w-1/2 bg-hero-pattern bg-cover bg-center relative">
+      <div className="absolute bottom-44 left-20">
+        <p className="font-medium text-3xl text-white">Over 1,75,324 candidates <br /> waiting for good employees.</p>
+      </div>
+      </div>
     </div>
   );
 };
